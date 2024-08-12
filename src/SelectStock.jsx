@@ -96,7 +96,7 @@ const SelectStock = () => {
 
   const handleOptimize = () => {
     // Perform any additional logic before navigation
-    navigate('/prediction'); // Navigate to the OptimizePage route
+    navigate('/prediction'); // Navigat e to the OptimizePage route
   };
 
   return (
