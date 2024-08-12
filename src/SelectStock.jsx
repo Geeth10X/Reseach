@@ -58,7 +58,7 @@ const ModelResult = ({ model, stocks, selectedStocks, onSelect, onSelectAll, dis
 const SelectStock = () => {
   const [selectedStocks1, setSelectedStocks1] = useState([]);
   const [selectedStocks2, setSelectedStocks2] = useState([]);
-  const navigate = useNavigate(); // Use the navigate function from React Router
+  const navigate = useNavigate(); // Use    the navigate function from React Router
 
   const handleSelectStock1 = (symbol) => {
     setSelectedStocks1((prev) =>
